@@ -19,3 +19,15 @@
     align-items: center;
     color: #3366DD;
 }
+h1 {
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.2;
+    color: #121212;
+    color: chartreuse;
+}
+input {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
