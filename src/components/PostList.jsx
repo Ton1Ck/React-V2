@@ -5,9 +5,9 @@ const PostList = ({posts, title}) => {
     return ( /* map для каждого поста отрисовывает post item и как props передаем туда обьект */
         <div>
             <h1>{title}</h1>
-            {posts.map(post =>  <PostItem post={post} key={post.id}/> )}
+            {posts.map((post, index) =>  <PostItem number={index +1} post={post} key={post.id}/> )}
 
-        </div>
+        </div>/* к каждому посту приклеиваем дату в качестве уникального номера  */
     );
 };
 
