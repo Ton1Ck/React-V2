@@ -30,4 +30,13 @@ input {
     margin-top: 10px;
     margin-right: 5px;
 }
-
+hr{
+    margin: 15px 0px;
+}
+.post__notfound {
+    line-height: 1.2;
+    font-weight: 16px;
+    color: teal;
+    font-weight: bolder;
+    text-align: center;
+}
